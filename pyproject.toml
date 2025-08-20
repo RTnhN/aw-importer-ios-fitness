@@ -9,3 +9,6 @@ dependencies = [
     "pandas>=2.3.1",
     "watchdog>=6.0.0",
 ]
+
+[project.scripts]
+aw-importer-ios-fitness = "aw_importer_ios_fitness:main"
