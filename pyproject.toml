@@ -1,0 +1,11 @@
+[project]
+name = "aw-importer-ios-fitness"
+version = "0.1.0"
+description = "This will import your workouts from Apple Health."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aw-client>=0.5.15",
+    "pandas>=2.3.1",
+    "watchdog>=6.0.0",
+]
