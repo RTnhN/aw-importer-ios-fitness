@@ -87,10 +87,10 @@ def _parse_and_add_data(aw: ActivityWatchClient, bucket_name: str, path: Path) -
             continue
 
         # Batch insert if supported
-        if batch_events:
-            aw.insert_events(bucket_name, batch_events)
+    if batch_events:
+        aw.insert_events(bucket_name, batch_events)
 
-        print_statusline(f"Added {added_logs} item(s)")
+    print_statusline(f"Added {added_logs} item(s)")
 
 
 def _load_config() -> dict:
